@@ -1,0 +1,113 @@
+*{  
+    box-sizing: border-box;
+}
+div, a{
+    margin: 20px;
+}
+.inline-divs
+{
+    display: inline-block;
+    vertical-align: top;
+}
+table{
+    margin: 20px;
+    width: 95%;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: chocolate;
+    text-shadow: 3px 2px 2px rgb(92, 52, 2);
+    
+}
+.bolded {
+    box-sizing: border-box;
+    font-family:  serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: chocolate;
+}
+.english-title{
+    display: block;
+    margin-bottom: 10px;
+}
+.full-name {
+    width: 220px;
+}
+
+input {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: rgb(116, 41, 14);
+}
+button {
+    background-color: darkorange; 
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+}
+body{
+    padding: 10px;
+    max-width: fit-content;
+    margin: 0 auto; 
+    border: solid 5px;
+    border-color: rgb(250, 221, 56);
+    box-shadow: gray 3px 4px 3px;
+    background-color: honeydew;
+    border-radius: 20px;
+}
+img {
+    display: inline-block;
+    transition: transform 1s ease-in-out;
+  }
+img:hover {
+    transform: rotate(720deg);
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.with-hover {
+    height: 50px;
+}
+th {
+    font-weight: bold;
+    border: 1px solid black;
+    height: 30px;
+    text-align: center;;
+}
+tr {
+    border: 1px solid black;
+}
+td {
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+td + .td-with-left-margin{
+    text-align: left;
+}
+.with-hover:hover {
+    background: darkorange;
+    color: white;
+}
+
+html{
+    background:
+      radial-gradient(circle at 50% 0,
+        rgba(255,0,0,.5),
+        rgba(255,0,0,0) 70.71%),
+      radial-gradient(circle at 6.7% 75%,
+        rgba(0,0,255,.5),
+        rgba(0,0,255,0) 70.71%),
+      radial-gradient(circle at 93.3% 75%,
+        rgba(0,255,0,.5),
+        rgba(0,255,0,0) 70.71%) beige;
+}
