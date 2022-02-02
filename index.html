@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actual vacancy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <h1 class="header">Вакансия Junior Frontend Developer</h1>
+    <div>
+        <div class="inline-divs">
+            <img id="СandidatPhoto" src="pics/pictureForHomework.png" alt="СandidatePhoto"/>
+        </div>
+        <div class="inline-divs">
+            <div>        
+                <label class="bolded" for="fullname">Имя:...</label>
+        
+                <input class="full-name" placeholder = "(Ваше имя)" name="fullname"> 
+            </div>
+            <a href="https://github.com/aleksaksan/Front-1-homework.git">https://github.com/</a>
+            <div>
+                <label class="bolded" for="exp">Опыт работы: </label>
+            
+                <input placeholder = "Нет" name="exp"> 
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div>
+        <div>
+            <label class="bolded" for="date">Дата собеседования: </label>
+            <input type = "date" name="date"> 
+         </div>
+        
+        <div>
+            <label class="bolded english-title">
+                Уровень английского: 
+            </label>
+            <label>
+                <input type="radio" name="englishType" value="bad">
+                <span>Плохо</span>
+            </label>
+            <label>
+                <input type="radio" name="englishType" value="middle">
+                <span>Средне</span>
+          </label>
+            <label>
+                <input type="radio" name="englishType" value="good">
+                <span>Хорошо</span>
+            </label>
+            <label>
+                <input type="radio" name="englishType" value="purfect">
+                <span>Превосходно</span>
+            </label>
+        </div>
+        <div>
+            <label class="bolded">Ключевые навыки: </label>
+            <ul>
+                <li>HTML</li>
+                <li>CSS/LESS</li>
+                <li>JavaScript</li>
+                <li>...</li>
+            </ul>
+        </div>
+        <div>
+            <input placeholder = "введите навык" name="abil"> 
+            <button>Добавить в список</button>
+        </div>
+        <div>
+            <label >
+                <span class="bolded">Коммуникабельность</span>
+                <select name="cars" id="cars">
+                    <option value="dominType">Доминантный тип</option>
+                    <option value="introType">Интровертный тип</option>
+                    <option value="mobileType">Мобильный тип</option>
+                    <option value="rigiType">Ригидный тип</option>
+                </select>
+            </label>
+        </div>
+    
+        <div>
+            <label class="bolded" for="salaryInput">Желаемая з/п: </label>
+            <input placeholder = "введите значение" name="salaryInput"> 
+        </div>
+        <div>
+            <label>Подходит по критериям: </label><br><br>
+                <label>
+                    <input type="checkbox" name="englishType" value="bad">
+                    <span>Знание английского</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="englishType" value="middle">
+                    <span>Оклад</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="englishType" value="good">
+                    <span>Навыки</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="englishType" value="purfect">
+                    <span>Сразу видно, что свой человек</span>
+                </label>
+        </div>
+    
+        <div class="bolded">Образование, курсы и т.п.</div>
+        <table>
+            <tr>
+                <th>#</th><th>Сроки обучения</th><th>Наименование учебного заведения, курсов...</th>
+            </tr>
+            <tr class="with-hover">
+                <td>1</td><td>тут какие-то даты</td><td class="td-with-left-margin">а тут какое-то учебное заведение номер 1</td>
+            </tr>
+            <tr class="with-hover">
+                <td>2</td><td>тут какие-то даты</td><td class="td-with-left-margin">учебное заведение номер 2</td>
+            </tr>
+            <tr class="with-hover">
+                <td>3</td><td>тут какие-то даты</td><td class="td-with-left-margin">учебное заведение номер 3</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</body>
+</html>
